@@ -1,0 +1,29 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "crons": [
+    {
+      "path": "/api/cron/tvl-revenue",
+      "schedule": "*/15 * * * *"
+    },
+    {
+      "path": "/api/cron/tvl-drift",
+      "schedule": "0 * * * *"
+    },
+    {
+      "path": "/api/cron/forex-refresh",
+      "schedule": "0 6 * * *"
+    },
+    {
+      "path": "/api/cron/trust-recheck",
+      "schedule": "30 3 * * *"
+    },
+    {
+      "path": "/api/cron/subgraph-metrics",
+      "schedule": "0 4 * * *"
+    },
+    {
+      "path": "/api/cron/rescan-urls",
+      "schedule": "20 */6 * * *"
+    }
+  ]
+}
