@@ -104,7 +104,7 @@ Defined in `vercel.json`, all behind `CRON_SECRET`.
 
 | | |
 |---|---|
-| Token | pending, lands here on deploy |
+| Token | https://argus.world/token/0x91b757B0e48c22c61f1CD45f21edd8b098c52e88 |
 
 ## License
 
